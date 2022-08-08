@@ -1,0 +1,39 @@
+
+.check{
+    display: flex;
+    margin-bottom: 32px;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.01);
+    border-radius: 8px;
+    
+}
+h1{
+    margin-top: 30px;
+}
+
+.chek{
+    margin-left: 60px;
+}
+.chec{
+    margin-left: 50px;
+}
+.chek p {
+    margin-top: 8px;
+    color: #515759;
+    margin-bottom: 20px;
+}
+.chec p {
+    margin-top: 8px;
+    color: #515759;
+    margin-bottom: 16px;
+}
+.number{
+    color: #515759;
+    margin-bottom: 16px;
+}
+.ssylka{
+    text-decoration: none;
+    color: #1890FF;
+}
+.img__link{
+    margin-right: 30px;
+}

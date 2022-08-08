@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 70px;
+
+}
+.main_header{
+    display: flex;
+    justify-content: space-between;
+}
+.main_header p {
+    color: #1890FF;
+}     
+.main_product{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    margin-top: 40px;
+}
+.btn{
+    font-size: 10px;
+    background: #1890FF;
+    color: white;
+    width: 55px;
+    height: 25px;
+    border-radius: 4px;
+    margin-top: 12px;
+    border: none;
+    outline: none ;
+}
+.img_link{
+    width: 10px;
+    height: 10px;
+}
+.title{
+    margin-top: 32px;
+    padding: 4px;
+}
