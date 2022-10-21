@@ -30,6 +30,10 @@ h1{
     color: #515759;
     margin-bottom: 16px;
 }
+.number a {
+    text-decoration: none;
+    color: #1890FF;
+}
 .ssylka{
     text-decoration: none;
     color: #1890FF;

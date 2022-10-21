@@ -7,8 +7,8 @@ import Instogram from '../../assets/Instogram.svg'
 
 const Check = () => {
   return(
-    <div className='container'>
-    <div className='check'>
+<div className='container'>
+  <div className='check'>
     <div className='chek'>
         <h1>Follow Us.</h1>
         <p>We are always looking for new <br/>
@@ -24,7 +24,7 @@ const Check = () => {
         <h1>Contact Us.</h1>
         <p>One Apple Park Way <br/>
 Cupertino, CA 95014</p>
-        <p className='number'>+996(704)646665</p>
+        <p className='number'><a href="tel:+996(704)646665">+996(704)646665</a></p>
         <a href="https://support.apple.com/" className='ssylka'>support@apple.com</a>
     </div>
     

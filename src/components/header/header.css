@@ -1,4 +1,4 @@
-*{
+     *{
   margin: 0px;
   padding: 0;
   box-sizing: border-box;
@@ -24,19 +24,23 @@
   display: flex;
   gap: 55px;
   background-color: #444;
-  width: 80%;
+  width: 800px;
   padding: 20px;
   display: flex;
   justify-content: center;
   border-radius: 0px 8px 8px 0px
 }
-.menu a{
+.menu .text{
   text-decoration: none;
-  color: white;
-  background-color: #444;
+    color: white;
   font-size: 18px;
 
 }
+ul{
+  list-style: none;
+}
+
+
 .header_logo{
   width: 200px;
   height: 100px;
