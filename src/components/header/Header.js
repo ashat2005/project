@@ -12,10 +12,17 @@ const Header = ()=>{
                 <div className='hedaer_logo'>
                     <a href="https://www.apple.com/ru/watch/"><img  src={Logo} alt="" /></a>
                 </div>
-                <nav>
+                <div className="menu">
+                    <a href="./indexMac.html">Macbook</a>
+                    <a href="./indexAir.html">AirPods</a>
+                    <a href="./indexAcce.html">Accessories</a>
+                    <a href="./indexIpad.html">iPad</a>
+                    <a href="./indexWatch.html">Watch</a>
+                </div>
+                {/* <nav>
           <ul className='menu'>
             <li>
-              <Link className='text' to="/macbook">MacBook </Link>
+              <Link  className='text' to="/macbook">MacBook </Link>
             </li>
             <li>
               <Link className='text' to="/accessories">Accessories</Link>
@@ -30,7 +37,7 @@ const Header = ()=>{
               <Link className='text' to="/watch">Watch</ Link>
             </li>
           </ul>
-        </nav>
+        </nav> */}
               </div>
            </div>
         </header>
